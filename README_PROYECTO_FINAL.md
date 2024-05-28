@@ -6,7 +6,9 @@
 ### Profesor: Manuel Lopez Palma
 
 
+
 **INTRODUCCIÓN:**
+
 Nuestro proyecto se enfoca en el desarrollo de un sistema de control de acceso para una puerta de parking.
 
 Para ello hemos utilizado casi todo lo que hemos hecho en las clases de prácticas. De la misma forma, hemos utilizado el mismo microprocesador (ESP-WROOM-32) e IDE (Platformio desde Visual Studio Code). Para escribir el programa, también, hemos utilizado el framework y las librerías de Arduino.
