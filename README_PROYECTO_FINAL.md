@@ -20,13 +20,13 @@ Nuestro microprocesador consta de tres periféricos principales:
 
 Además:
 -2 LED's (rojo y verde): Se encargan de mostrar una respuesta visual al usuario y, quedan bonitos.
--Conexión WIFI (del mismo microprocesador): Se encarga de crear una interfaz WEB para la gestión remota de targetas.
+-Conexión WIFI (del mismo microprocesador): Se encarga de crear una interfaz WEB para la gestión remota de tarjetas.
 
 
 ¿Cuándo se abrirá la puerta?
-Siempre y cuando se pase por el lector una targeta autorizada.
+Siempre y cuando se pase por el lector una tarjeta autorizada.
 
-¿Como puedo autorizar o desautorizar mi targeta?
+¿Como puedo autorizar o desautorizar mi tarjeta?
 Desde la página WEB, en ella encontramos:
 -Un registro de todos los UID's de las targetas que han pasado por el lector.
 -Un apartado para autorizar una targeta a partir de su UID.
