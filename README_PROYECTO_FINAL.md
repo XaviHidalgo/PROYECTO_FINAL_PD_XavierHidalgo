@@ -1,16 +1,13 @@
 # PROYECTO_FINAL_PD_XavierHidalgo
 
-
-##                       TÍTULO:
 ## SISTEMA DE **CONTROL DE ACCESO** PARA UNA **PUERTA DE PARKING**
 
-
-### Alumnos: Juan Esteban Palacios, Xavier Hidalgo 
-### Profesor de prácticas: Manuel Lopez Palma
-
+Alumnos: Juan Esteban Palacios, Xavier Hidalgo 
+Profesor de prácticas: Manuel Lopez Palma
 
 
-**INTRODUCCIÓN:**
+
+### **INTRODUCCIÓN:**
 
 Nuestro proyeco se ha enfocado en el desarrollo de un sistema que permite el acceso a un parking mediante la lectura de tarjetas RFID autorizadas.
 
@@ -27,7 +24,7 @@ Hemos desarrollado el sistema con la ayuda del microprocesador ESP-WROOM-32. Lo 
 ![Im1](https://github.com/XaviHidalgo/PROYECTO_FINAL_PD_XavierHidalgo/blob/main/imagenes/web1.jpg)
 
 
-**OBJETIVOS:**
+### **OBJETIVOS:**
 
 1- Desarrollar un sistema que funcione y sea lo más realista posible.
 
@@ -40,7 +37,7 @@ Hemos desarrollado el sistema con la ayuda del microprocesador ESP-WROOM-32. Lo 
 5- Entender cómo trabajan los componentes electrónicos utilizados.
 
 
-**COMPONENTES ELECTRÓNICOS: su función y funcionamiento**
+### **COMPONENTES ELECTRÓNICOS: su función y funcionamiento**
 
 · Microprocesador ESP-WROOM-32:
 
@@ -101,7 +98,7 @@ Funcionamiento:
 Función: Dar información visual al usuario sobre si tiene acceso o no al parking. Si pasa una tarjeta autorizada se encenderá el LED verde. En caso contrario, el rojo.
 
 
-**CONEXIONES: periféricos - microprocesador:**
+### **CONEXIONES: periféricos - microprocesador:**
 
 Sensor de Ultrasonidos - ESP-WROOM-32
 
@@ -133,7 +130,7 @@ Signal (VERDE) --> GPIO 04
 GND --> GND
 
 
-**Partes principales de nuestro PROGRAMA:**
+### **Partes principales de nuestro PROGRAMA:**
 
 Como describe el título, en este apartado solo veremos las partes principales o más importantes del programa que hemos hecho. Esto lo hacemos para no llenar el informe con especificaciones que carezcan de explicación. Por ejemplo, partes como la assignación de pines no están incluidas a continuación. 
 
