@@ -104,31 +104,48 @@ Función: Dar información visual al usuario sobre si tiene acceso o no al parki
 Sensor de Ultrasonidos - ESP-WROOM-32
 
 VCC --> 5 V
+
 GND --> GND
+
 Trig --> GPIO 33
+
 Echo --> GPIO 32
+
 
 Lector RFID - ESP-WROOM-32
 
 VCC --> 3.3 V
+
 GND --> GND
+
 RST --> GPIO 22
+
 SDA --> GPIO 21
+
 MOSI --> GPIO 23
+
 MISO --> GPIO 19
+
 SCK --> GPIO 18
+
 
 Servomotor - ESP-WROOM-32
 
 VCC --> 5 V
+
 GND --> GND
+
 Signal --> GPIO 17
+
 
 LED's - ESP-WROOM-32
 
 Signal (ROJO) --> GPIO 16
+
 Signal (VERDE) --> GPIO 04
+
 GND --> GND
+
 
 
 ### **Partes principales de nuestro PROGRAMA:**
