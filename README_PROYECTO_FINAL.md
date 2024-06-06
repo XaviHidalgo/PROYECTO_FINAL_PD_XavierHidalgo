@@ -3,6 +3,7 @@
 ## SISTEMA DE **CONTROL DE ACCESO** PARA UNA **PUERTA DE PARKING**
 
 Alumnos: Juan Esteban Palacios, Xavier Hidalgo 
+
 Profesor de prácticas: Manuel Lopez Palma
 
 
