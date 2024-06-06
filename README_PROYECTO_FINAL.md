@@ -383,3 +383,28 @@ Si aceptaTargeta() es FALSE, ejecutamos de la siguiente manera:
 -Apagamos LED ROJO.
 
 Finalmente, tras leer un UID y abrir o no la puerta en consecuencia, esperamos 2 segundos hasta hacer la siguiente lectura.
+
+
+### PROBLEMAS EN EL PROCESO:
+
+1. Querer utilizar un solo sensor de ultrasonidos para la detección de vehículos de entrada y de salida:
+
+  → Difícil, no encontrábamos la posición y nos aplastaba los coches!
+
+  → Igualmente optamos por utilizar un solo sensor de ultrasonidos pero en la posición más primordial, la de salida, para que no hubiera más accidentes.
+
+2. Para autorizar tarjetas desde la web, se debe poner un espacio delante del UID por cómo hemos programado el for de lectura:
+
+  → Realmente no es grave, es un sistema de seguridad para que un desconocido lo tenga más difícil para entrar su coche en el parking.
+
+3. Se pueden agregar UID’s en la web aunque lo que no sea un UID, haciendo posible colapsar el vector tAceptadas y hacer difícil su lectura.
+
+
+### CONCLUSIONES:
+
+Creemos haber alcanzado todos los objetivos que nos propusimos, los especificados al inicio del informe. Hemos conseguido desarrollar un sistema que funciona correctamente y ofrece una combinación de gestión y seguridad para el accseo a un parking. Además, hemos conseguido que el lector RFID, el periférico más complejo que hemos utilizado, funcione a la perfección. Nos ha gustado mucho trabajar con este y aprender más sobre el mundo de la codificación y descodificación por radiofrecuancia o campos EM.
+
+Creemos haber desarrollado una plataforma sólida para futuras expansiones y mejoras. Por ejemplo, añadir una base de datos que guarde la información que tenemos almacenada en los vectores, al fin y al cabo, cuando desconectamos el microprocesador estos datos los perdemos. También, añadir algun protocolo de acceso a la página web para mejorar la seguridad. 
+Aún así, creemos que estas mejoras no forman parte de la materia de Procesadores Digitales pero hubiera estado bien implementarlas. Uno de los objetivos que nos hacia más ilusión alcanzar era que nuestro sistema se asemejara lo máximo posible a uno real, salvando la distancia de que no hibamos a hacer una puerta de parking real (a nivel físico), hemos hecho una maqueta. Implementando, entre otras cosas, la base de datos y un sistema de seguridad para la web, nos habríamos acercado más a un sistema de control de acceso a un parking real y actual.
+
+Igualmente, estamos muy contentos de nuestro proyecto, creemos que se podría implementar en la realidad, quizás no en el acceso del parking de la Moncloa (que suponemos que tendrá) pero si a uno de menor importancia.
